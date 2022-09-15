@@ -6,7 +6,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "friends")
+// @Table(name = "friends")
 public class Friends {
     public Friends(int id, String name) {
         super();

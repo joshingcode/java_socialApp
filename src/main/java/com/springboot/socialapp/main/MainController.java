@@ -1,17 +1,17 @@
 package com.springboot.socialapp.main;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class MainController {
     
-    @RequestMapping("/")
+    @GetMapping("/")
     public String mainPage(){
         return "main";
     }
 
-    @RequestMapping("eats")
+    @GetMapping("eats")
     public String restaurants(){
         return "eats";
     }

@@ -27,7 +27,7 @@
 
         <div class="d-flex justify-content-center mb-3">
             <a class="mx-auto btn btn-primary text-center" href="/eats">Take me to eat</a>
-            <a class="mx-auto btn btn-secondary text-center" href="/eats">Friends</a>
+            <a class="mx-auto btn btn-secondary text-center" href="/friends">Friends</a>
         </div>
 
 
